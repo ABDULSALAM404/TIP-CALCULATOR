@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(63, 61, 132) !important;
+}
+
+.flex-1 {
+    display: flex;
+    justify-content: space-between;
+
+}
+.flex {
+    display: flex;
+}
+
+.totalperson-div {
+    text-align: right;
+}
+
+.buttonContainer {
+    background: #8990ec;
+    display: grid;
+    place-items: center;
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 50%;
+  }
+  
+  .splitButton {
+    background: none;
+    border: none;
+  }
+  .wrapper{
+    background:  #272639;
+    color: #fff;
+    padding: 15px;
+    height: 400px;
+  }
+  
+  .wrapper .input input {
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+    background: none;
+    text-indent: 5px;
+    color: #fff;
+  }
+  .wrapper .input input:focus{
+    outline: none;
+  }
+  
+  .wrapper .inputContainer{
+    background: #353959;
+    border-radius: 10px;
+  }
